@@ -1,0 +1,25 @@
+/*------------------------------------------------------------*/
+
+.inter-bg{
+    background: url("../img/bg-sobre.png") no-repeat center;
+    background-size: cover;
+}
+
+.missao {
+    padding-top: 60px;
+}
+.missao p{
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 1em;
+    padding-right: 40px;
+}
+.missao ul li{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 30px;
+}
+.fotoequipe {
+    padding-top: 20px;
+
+}

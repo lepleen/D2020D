@@ -1,0 +1,195 @@
+/*------------------------------------------------------------*/
+
+.inter-prod{
+    background: url("../img/produtos/bg-rpg-game.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.prod_item {
+    padding-top: 60px;
+
+}
+
+.prod_item {
+    padding-top: 30px;
+
+}
+.prod_item h2{
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: .1em;
+    font-weight: bold;
+    position: relative;
+    top: -180px;
+    text-align: center;
+    margin-bottom: -56px;
+
+}
+.prod_item h2::after, .prod_item h2::before{
+    content: "";
+	display: block;
+	width: 60px;
+	height: 3px;
+	background: #fff;
+	margin: 6px auto 8px auto;
+}
+
+
+.prod-ico {
+    background: #68A1F7;
+    
+
+}
+
+.prod-ico img{
+    margin: 0 auto;
+    padding: 70px 0;
+    width: 140px;
+}
+
+.prod_info {
+    background: #000;
+}
+
+.prod_info p {
+    color: #fff;
+    font-size: 16px;
+    line-height: 25px ;
+    padding: 10px 40px;
+    height: 180px;
+}
+
+.prod_info ul li {
+    background: #68A1F7 ;
+    text-transform: uppercase;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    line-height: 20px;
+    float: left;
+    width: 229px;
+    height: 49px ;
+    padding-top: 16px;
+    
+
+    
+}
+.prod_info ul li:nth-child(1), .prod_info ul li:nth-child(2) {
+    margin-bottom: 2px;
+}
+
+.prod_info ul li:nth-child(even){
+    background: rgba(0, 255, 200);
+    margin-left: 2px;
+    
+
+}
+
+/*ORCAMENTOS----------------------------------------------------------------------------*/
+
+.form_orc {
+    background: #000;
+    width: 100%;
+    margin-top: 60px;
+    padding: 40px 0;
+}
+
+.form_orc h2 {
+    color: #68A1F7;
+}
+.form_orc h2::after {
+    background: #68A1F7;
+}
+
+.form {
+    padding-right: 60px;
+}
+
+.form label {
+    display: block;
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 4px;
+}
+
+.form_orc input {
+    display: block;
+    width: 100%;
+    border: 4px solid #68A1F7;
+    background: none;
+    color: #fff;
+    padding: 7px 10px;
+    margin-bottom: 10px;
+    outline: none;
+    font-size: 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.form_orc textarea {
+    display: block;
+    width: 100%;
+    height: 120px ;
+    border: 4px solid #68A1F7;
+    background: none;
+    color: #fff;
+    padding: 7px 10px;
+    margin-bottom: 20px;
+    outline: none;
+    font-size: 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.form_orc button {
+    background: none;
+    padding: 7px 40px;
+}
+
+.orc_dados {
+    color: #fff;
+}
+
+.orc_dados h3{
+    font-size: 18px;
+    text-transform:  uppercase;
+    color: #68A1F7;
+    line-height: 25px;
+    font-weight: bold;
+}
+
+.orc_dados span{
+    display: block;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 30px;
+   
+}
+
+.orc_dados span:nth-of-type(2){
+    margin-bottom: 40px;
+}
+
+.orc_dados ul{
+    padding-right: 60px;
+}
+.orc_dados ul li{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;    
+    padding: 10px 15px;
+}
+
+.orc_dados ul li:nth-child(odd){
+    background: #1d1d1d;
+
+}
+
+.orc_dados p{
+    margin: 8px 0;
+}
+
+
+
+
+
